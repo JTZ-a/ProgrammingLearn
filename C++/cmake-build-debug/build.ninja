@@ -49,8 +49,14 @@ cmake_ninja_workdir = F$:/OpenApp/Programming/ProgrammingLearn/C++/cmake-build-d
 
 build cmake_object_order_depends_target_C__: phony || CMakeFiles/C__.dir
 
-build CMakeFiles/C__.dir/oneDay/variable.cpp.obj: CXX_COMPILER__C___Debug F$:/OpenApp/Programming/ProgrammingLearn/C++/oneDay/variable.cpp || cmake_object_order_depends_target_C__
-  DEP_FILE = CMakeFiles\C__.dir\oneDay\variable.cpp.obj.d
+build CMakeFiles/C__.dir/oneDay/gotoStructure.cpp.obj: CXX_COMPILER__C___Debug F$:/OpenApp/Programming/ProgrammingLearn/C++/oneDay/gotoStructure.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\oneDay\gotoStructure.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__.dir\oneDay
+
+build CMakeFiles/C__.dir/oneDay/function.cpp.obj: CXX_COMPILER__C___Debug F$:/OpenApp/Programming/ProgrammingLearn/C++/oneDay/function.cpp || cmake_object_order_depends_target_C__
+  DEP_FILE = CMakeFiles\C__.dir\oneDay\function.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
   OBJECT_DIR = CMakeFiles\C__.dir
   OBJECT_FILE_DIR = CMakeFiles\C__.dir\oneDay
@@ -63,7 +69,7 @@ build CMakeFiles/C__.dir/oneDay/variable.cpp.obj: CXX_COMPILER__C___Debug F$:/Op
 #############################################
 # Link the executable C__.exe
 
-build C__.exe: CXX_EXECUTABLE_LINKER__C___Debug CMakeFiles/C__.dir/oneDay/variable.cpp.obj
+build C__.exe: CXX_EXECUTABLE_LINKER__C___Debug CMakeFiles/C__.dir/oneDay/gotoStructure.cpp.obj CMakeFiles/C__.dir/oneDay/function.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C__.dir
