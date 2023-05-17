@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: C__
+# Project: C++
 # Configurations: Debug
 # =============================================================================
 
@@ -41,43 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = F$:/OpenApp/Programming/ProgrammingLearn/C++/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target C__
+# Object build statements for EXECUTABLE target C++
 
 
 #############################################
-# Order-only phony target for C__
+# Order-only phony target for C++
 
-build cmake_object_order_depends_target_C__: phony || CMakeFiles/C__.dir
+build cmake_object_order_depends_target_C++: phony || CMakeFiles/C++.dir
 
-build CMakeFiles/C__.dir/oneDay/gotoStructure.cpp.obj: CXX_COMPILER__C___Debug F$:/OpenApp/Programming/ProgrammingLearn/C++/oneDay/gotoStructure.cpp || cmake_object_order_depends_target_C__
-  DEP_FILE = CMakeFiles\C__.dir\oneDay\gotoStructure.cpp.obj.d
+build CMakeFiles/C++.dir/project/addressBookManagementSystem/addressBookManagementSystem.cpp.obj: CXX_COMPILER__C.2b.2b_Debug F$:/OpenApp/Programming/ProgrammingLearn/C++/project/addressBookManagementSystem/addressBookManagementSystem.cpp || cmake_object_order_depends_target_C++
+  DEP_FILE = CMakeFiles\C++.dir\project\addressBookManagementSystem\addressBookManagementSystem.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  OBJECT_DIR = CMakeFiles\C__.dir
-  OBJECT_FILE_DIR = CMakeFiles\C__.dir\oneDay
-
-build CMakeFiles/C__.dir/oneDay/function.cpp.obj: CXX_COMPILER__C___Debug F$:/OpenApp/Programming/ProgrammingLearn/C++/oneDay/function.cpp || cmake_object_order_depends_target_C__
-  DEP_FILE = CMakeFiles\C__.dir\oneDay\function.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  OBJECT_DIR = CMakeFiles\C__.dir
-  OBJECT_FILE_DIR = CMakeFiles\C__.dir\oneDay
+  OBJECT_DIR = CMakeFiles\C++.dir
+  OBJECT_FILE_DIR = CMakeFiles\C++.dir\project\addressBookManagementSystem
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target C__
+# Link build statements for EXECUTABLE target C++
 
 
 #############################################
-# Link the executable C__.exe
+# Link the executable C++.exe
 
-build C__.exe: CXX_EXECUTABLE_LINKER__C___Debug CMakeFiles/C__.dir/oneDay/gotoStructure.cpp.obj CMakeFiles/C__.dir/oneDay/function.cpp.obj
+build C++.exe: CXX_EXECUTABLE_LINKER__C.2b.2b_Debug CMakeFiles/C++.dir/project/addressBookManagementSystem/addressBookManagementSystem.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\C__.dir
+  OBJECT_DIR = CMakeFiles\C++.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = C__.exe
-  TARGET_IMPLIB = libC__.dll.a
-  TARGET_PDB = C__.exe.dbg
+  TARGET_FILE = C++.exe
+  TARGET_IMPLIB = libC++.dll.a
+  TARGET_PDB = C++.exe.dbg
 
 
 #############################################
@@ -105,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build C__: phony C__.exe
+build C++: phony C++.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +109,7 @@ build C__: phony C__.exe
 #############################################
 # Folder: F:/OpenApp/Programming/ProgrammingLearn/C++/cmake-build-debug
 
-build all: phony C__.exe
+build all: phony C++.exe
 
 # =============================================================================
 # Built-in targets

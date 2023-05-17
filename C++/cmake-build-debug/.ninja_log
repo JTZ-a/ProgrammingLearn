@@ -1,0 +1,16 @@
+# ninja log v5
+0	85	7059407961808164	build.ninja	8b16dc4b16cdfa3
+2	297	7059113758708269	CMakeFiles/C__.dir/oneDay/switchStructure.cpp.obj	e898b2c3b54bf1a5
+4	472	7058559687772198	CMakeFiles/C__.dir/oneDay/helloWord.cpp.obj	d9e597df717441b9
+1	380	7058544473903290	CMakeFiles/C__.dir/main.cpp.obj	843956d579f6f88b
+329	424	7059280132632122	C__.exe	a94f010ed34a6593
+3	449	7059102105542126	CMakeFiles/C__.dir/oneDay/variable.cpp.obj	e488eb8167215888
+2	292	7059102767701151	CMakeFiles/C__.dir/oneDay/inputAndOutput.cpp.obj	fb2a72e32136d7bd
+0	293	7059107778300598	CMakeFiles/C__.dir/oneDay/ifStructure.cpp.obj	b4f701541553908e
+2	287	7059119923653772	CMakeFiles/C__.dir/oneDay/whileStructure.cpp.obj	6ca1801e37960b56
+3	428	7059126606478351	CMakeFiles/C__.dir/oneDay/dowhileStructure.cpp.obj	1b79d32f1e0dd13c
+3	286	7059131666477336	CMakeFiles/C__.dir/oneDay/forStructure.cpp.obj	fee228d56ac71638
+0	293	7059138943180359	CMakeFiles/C__.dir/oneDay/gotoStructure.cpp.obj	1304513a8c24bc0e
+5	450	7059256698986459	CMakeFiles/C__.dir/oneDay/function.cpp.obj	a73f16c4281860aa
+2	290	7059257890326825	CMakeFiles/C__.dir/oneDay/pointer/pointerUse.cpp.obj	21b9f85ad55b688b
+0	327	7059280131689440	CMakeFiles/C__.dir/oneDay/struct/structPointer.cpp.obj	a44d64b6255af402

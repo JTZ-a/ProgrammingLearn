@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
-project(C__)
+project(C++)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(C__ oneDay/gotoStructure.cpp oneDay/function.cpp)
+add_executable(C++ project/addressBookManagementSystem/addressBookManagementSystem.cpp project/addressBookManagementSystem/addressBookManagementSystem.cpp project/addressBookManagementSystem/addressBookManagementSystem.cpp project/addressBookManagementSystem/addressBookManagementSystem.h)
